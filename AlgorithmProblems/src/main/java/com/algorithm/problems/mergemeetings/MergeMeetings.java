@@ -1,4 +1,4 @@
-package com.algoirthm.problems.mergemeetings;
+package com.algorithm.problems.mergemeetings;
 
 import java.util.ArrayList;
 import java.util.Arrays;

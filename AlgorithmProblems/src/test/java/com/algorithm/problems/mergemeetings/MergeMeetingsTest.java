@@ -1,11 +1,10 @@
-package com.algoirthm.problems.mergemeetings;
+package com.algorithm.problems.mergemeetings;
 
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MergeMeetingsTest extends TestCase {
