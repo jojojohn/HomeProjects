@@ -12,7 +12,7 @@ public class RemoveDuplicatesImplTest extends TestCase {
         int[] input1  = {1, 2};
         assertEquals(2, new RemoveDuplicatesImpl().removeDuplicates(input1));
         int[] input2  = {1, 1, 1, 1, 1, 1};
-        assertEquals(2, new RemoveDuplicatesImpl().removeDuplicates(input1));
+        assertEquals(1, new RemoveDuplicatesImpl().removeDuplicates(input2));
     }
 
     @Test
