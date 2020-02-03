@@ -10,6 +10,7 @@ import java.util.List;
 public class MissingRangesTest extends TestCase {
 
     private MissingRanges missingRanges = new MissingRanges();
+
     public void testFindMissingRanges() {
         int[] input = {1, 2, 3, 4, 5};
         int low = 0;
@@ -39,7 +40,7 @@ public class MissingRangesTest extends TestCase {
         expected.add("76->99");
         assertTrue(this.isTwoListsAreEqual(expected, missingRanges.findMissingRanges(input, low, high)));
 
-        input = new int[]{-2147483648,-2147483648,0,2147483647,2147483647};
+        input = new int[]{-2147483648, -2147483648, 0, 2147483647, 2147483647};
         low = -2147483648;
         high = 2147483647;
         expected.clear();

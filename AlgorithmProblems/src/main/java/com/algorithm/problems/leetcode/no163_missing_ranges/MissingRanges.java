@@ -39,5 +39,4 @@ public class MissingRanges {
             return start + "->" + end;
         }
     }
-
 }
