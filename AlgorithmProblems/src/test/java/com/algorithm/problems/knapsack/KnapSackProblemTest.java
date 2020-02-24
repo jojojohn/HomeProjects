@@ -1,6 +1,5 @@
-package com.algorithm.problems.leetcode.knapsack;
+package com.algorithm.problems.knapsack;
 
-import com.algorithm.problems.knapsack.KnapSackProblem;
 import junit.framework.TestCase;
 import org.junit.Test;
 
