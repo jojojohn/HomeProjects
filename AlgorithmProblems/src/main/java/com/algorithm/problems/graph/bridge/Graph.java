@@ -36,7 +36,11 @@ public class Graph {
     }
 
     public void addEdge(int vertex1, int vertex2) {
-        this.adjacencyList[vertex1].add(vertex2);
-        this.adjacencyList[vertex2].add(vertex1);
+        if(!this.adjacencyList[vertex1].contains(vertex2)) {
+            this.adjacencyList[vertex1].add(vertex2);
+        }
+        if(!this.adjacencyList[vertex2].contains(vertex1)) {
+            this.adjacencyList[vertex2].add(vertex1);
+        }
     }
 }
