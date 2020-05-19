@@ -27,6 +27,11 @@ public class MergeMeetings {
             }
         });
 
+        /**
+         * Lambda expression for the same method
+         * Arrays.sort(intervals, (interval1, intervals2) -> Integer.compare(interval1[0], intervals2[0]));
+         */
+
         // Iterate through each intervals and find out the lapped intervals.
         List<List<Integer>> result = new ArrayList<>();
 
