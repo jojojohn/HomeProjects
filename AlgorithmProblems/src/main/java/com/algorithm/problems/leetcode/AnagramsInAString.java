@@ -1,4 +1,4 @@
-package com.algorithm.problems.leetcode.no438_find_all_anagrams;
+package com.algorithm.problems.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
